@@ -4,7 +4,25 @@ Este modelo de desarrollo profesional ayuda a las personas que trabajan en tecno
 
 Su objetivo principal es facilitar **conversaciones significativas** entre cada persona y su responsable sobre las expectativas de cada nivel y los siguientes pasos de su carrera. No es una calculadora de ascensos ni una lista de comprobación.
 
-![Ejemplo de radar de desarrollo profesional](radar.svg)
+```mermaid
+---
+title: "Ejemplo de desarrollo profesional (datos ficticios)"
+config:
+  themeCSS: ".radarCurve-0 { stroke-dasharray: 8 5; }"
+  themeVariables:
+    cScale0: "#89BE34"
+    cScale1: "#EC8916"
+    radar:
+      curveStrokeWidth: 3
+---
+radar-beta
+  axis t["Excelencia técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación y colaboración"], e["Conocimiento de la empresa"]
+  curve o["Objetivo próximo"]{3, 4, 4, 3, 3, 3}
+  curve n["Nivel actual"]{2, 3, 3, 2, 2, 2}
+  max 6
+  ticks 6
+  graticule polygon
+```
 
 ## Seis dimensiones
 
@@ -114,17 +132,18 @@ El siguiente ejemplo, con datos ficticios, compara a una persona con el perfil m
 
 ```mermaid
 ---
-title: "Persona frente al mínimo de E – Senior 1"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
+    cScale1: "#EC8916"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo E – Senior 1"]{4, 4, 6, 3, 4, 5}
   curve p["Persona"]{4, 3, 5, 2, 4, 4}
   max 6
-  min 0
   ticks 6
   graticule polygon
-  showLegend true
 ```
 
 En este ejemplo, la conversación se centraría en autonomía, responsabilidad, liderazgo y conocimiento de la empresa, que están por debajo del perfil mínimo.

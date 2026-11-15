@@ -10,13 +10,14 @@ Sirven para comparar el perfil de una persona con el nivel al que aspira. Los ni
 
 ```mermaid
 ---
-title: "I – Junior 1"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{1, 1, 1, 1, 1, 1}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -26,13 +27,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "H – Junior 2"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{2, 2, 2, 1, 1, 2}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -42,13 +44,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "G – Mid 1"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{3, 3, 3, 2, 3, 3}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -58,13 +61,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "F – Mid 2"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{3, 3, 4, 2, 3, 4}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -74,13 +78,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "E – Senior 1"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{4, 4, 6, 3, 4, 5}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -90,13 +95,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "D – Senior 2"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{5, 5, 6, 3, 4, 6}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -106,13 +112,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "C – Tech Lead / Manager"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{6, 6, 6, 4, 5, 6}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -122,13 +129,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "B – Principal / Director"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{5, 6, 6, 5, 5, 6}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
@@ -138,13 +146,14 @@ radar-beta
 
 ```mermaid
 ---
-title: "A – Jefe/a de Departamento"
+config:
+  themeVariables:
+    cScale0: "#89BE34"
 ---
 radar-beta
   axis t["Técnica"], a["Autonomía"], r["Responsabilidad"], l["Liderazgo"], c["Comunicación"], e["Empresa"]
   curve n["Mínimo"]{5, 6, 6, 6, 6, 6}
   max 6
-  min 0
   ticks 6
   graticule polygon
   showLegend false
