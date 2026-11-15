@@ -148,32 +148,16 @@ radar-beta
 
 En este ejemplo, la conversación se centraría en autonomía, responsabilidad, liderazgo y conocimiento de la empresa, que están por debajo del perfil mínimo.
 
-## Preguntas frecuentes
+### Cuándo está lista una persona para el siguiente nivel
 
-**¿Qué pasa si una persona no cumple todos los puntos?**
+El cambio de nivel no depende de una única valoración. Antes de formalizarlo, conviene comprobar que la persona ya rinde al nivel siguiente de forma sostenida durante varios meses, y no solo en momentos puntuales.
 
-Es muy normal: las personas suelen ser más fuertes en unas áreas y más débiles en otras. El modelo no debe usarse como una lista de comprobación para promocionar, sino como guía para mantener conversaciones de carrera significativas.
+### Adaptarlo a tu organización
 
-**¿Qué pasa si la carrera profesional de mi organización es diferente?**
-
-El modelo está pensado para adaptarse. Puedes cambiar dimensiones, niveles y descripciones, y definir tus propios ejemplos de comportamiento según la forma de trabajar de cada equipo.
-
-**¿Cuándo está lista una persona para pasar al siguiente nivel?**
-
-Normalmente se espera que la persona rinda al nivel siguiente de forma consistente durante varios meses antes de formalizar una promoción.
-
-**¿Cómo recojo evidencias para apoyar la conversación?**
-
-Cada equipo lo hace de una forma distinta. Una combinación recomendada es:
-
-- Conversaciones 1:1.
-- Feedback de compañeros y de otros equipos.
-- Autoevaluación.
+Las dimensiones, los niveles y las descripciones pueden modificarse para reflejar la realidad de cada organización. Lo más útil suele ser que cada equipo complete las descripciones con ejemplos de comportamiento propios, porque dependen de sus herramientas, sus sistemas y su forma de trabajar.
 
 ## Autoría y licencia
 
 Creado por [Javi Gallego Ferris](https://www.linkedin.com/in/javi-gallego-ferris-17704583/).
-
-El enfoque de conversaciones de carrera y las preguntas frecuentes están inspirados en [Engineering Ladders](https://github.com/jorgef/engineeringladders), publicado bajo licencia Apache-2.0.
 
 Este contenido se comparte bajo la licencia [Creative Commons Reconocimiento 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es). Consulta [LICENCIA.md](LICENCIA.md).

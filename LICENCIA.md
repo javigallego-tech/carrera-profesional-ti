@@ -6,4 +6,4 @@ El contenido de este proyecto se distribuye bajo la licencia [Creative Commons R
 
 Puedes compartir y adaptar el contenido, incluso para fines comerciales, siempre que cumplas los términos de la licencia, entre ellos reconocer la autoría, enlazar la licencia e indicar si has realizado cambios.
 
-El [texto legal de la licencia](https://creativecommons.org/licenses/by/4.0/legalcode.es) prevalece sobre este resumen.
+El [texto legal de la licencia](LICENSE) incluido en este repositorio prevalece sobre este resumen. También está disponible en [español](https://creativecommons.org/licenses/by/4.0/legalcode.es).
