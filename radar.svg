@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="610" viewBox="0 0 800 610" role="img" aria-labelledby="title description">
+  <title id="title">Ejemplo de radar de desarrollo profesional</title>
+  <desc id="description">Radar de seis dimensiones en una escala del 1 al 6 con valores ficticios para el nivel actual y el objetivo próximo.</desc>
+  <rect width="800" height="610" fill="white"/>
+  <g fill="none" stroke="#c4cbd3" stroke-width="1">
+    <polygon points="400,260 426,275 426,305 400,320 374,305 374,275"/>
+    <polygon points="400,230 452,260 452,320 400,350 348,320 348,260"/>
+    <polygon points="400,200 478,245 478,335 400,380 322,335 322,245"/>
+    <polygon points="400,170 504,230 504,350 400,410 296,350 296,230"/>
+    <polygon points="400,140 530,215 530,365 400,440 270,365 270,215"/>
+    <polygon points="400,110 556,200 556,380 400,470 244,380 244,200"/>
+    <path d="M400 110V470 M244 200L556 380 M556 200L244 380"/>
+  </g>
+  <polygon points="400,200 504,230 504,350 400,380 322,335 322,245" fill="#14804a" fill-opacity=".08" stroke="#14804a" stroke-width="3" stroke-dasharray="8 5"/>
+  <polygon points="400,230 478,245 478,335 400,350 348,320 348,260" fill="#1667b2" fill-opacity=".18" stroke="#1667b2" stroke-width="3"/>
+  <g fill="#28323c" font-family="sans-serif" font-size="16" text-anchor="middle">
+    <text x="400" y="46" font-size="20" font-weight="bold">Ejemplo de desarrollo profesional</text>
+    <text x="400" y="85">Excelencia técnica</text>
+    <text x="595" y="193" text-anchor="start">Autonomía</text>
+    <text x="595" y="387" text-anchor="start">Responsabilidad</text>
+    <text x="400" y="505">Liderazgo</text>
+    <text x="205" y="375" text-anchor="end"><tspan x="205">Comunicación</tspan><tspan x="205" dy="20">y colaboración</tspan></text>
+    <text x="205" y="185" text-anchor="end"><tspan x="205">Conocimiento</tspan><tspan x="205" dy="20">de la empresa</tspan></text>
+    <text x="412" y="257" font-size="12">1</text>
+    <text x="412" y="227" font-size="12">2</text>
+    <text x="412" y="197" font-size="12">3</text>
+    <text x="412" y="167" font-size="12">4</text>
+    <text x="412" y="137" font-size="12">5</text>
+    <text x="412" y="107" font-size="12">6</text>
+    <text x="400" y="590" font-size="13">Datos ficticios; escala de 1 a 6</text>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#28323c">
+    <path d="M225 550h45" stroke="#1667b2" stroke-width="3"/>
+    <text x="280" y="555">Nivel actual</text>
+    <path d="M425 550h45" stroke="#14804a" stroke-width="3" stroke-dasharray="8 5"/>
+    <text x="480" y="555">Objetivo próximo</text>
+  </g>
+</svg>
