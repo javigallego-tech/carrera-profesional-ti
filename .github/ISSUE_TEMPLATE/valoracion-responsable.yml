@@ -1,0 +1,90 @@
+name: Valoración del responsable
+description: Valora de forma independiente a una persona para compararla con su autoevaluación.
+title: "Valoración del responsable - "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Valora cada dimensión de 1 a 6 con evidencias (1:1, feedback de otras personas y equipos, resultados), sin mirar antes la autoevaluación si puedes evitarlo.
+        Al enviar el formulario se publicará un comentario que compara tu valoración con la autoevaluación indicada y con el perfil mínimo del nivel.
+  - type: input
+    id: autoevaluacion
+    attributes:
+      label: Autoevaluación de referencia
+      description: Número del issue de la autoevaluación, por ejemplo 12. Déjalo vacío si no hay.
+  - type: input
+    id: periodo
+    attributes:
+      label: Periodo
+      description: Por ejemplo, 2026-S2.
+    validations:
+      required: true
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Nivel de referencia
+      description: El nivel con el que se compara la valoración.
+      options:
+        - I – Junior 1
+        - H – Junior 2
+        - G – Mid 1
+        - F – Mid 2
+        - E – Senior 1
+        - D – Senior 2
+        - C – Tech Lead / Manager
+        - B – Principal / Director
+        - A – Jefe/a de Departamento
+    validations:
+      required: true
+  - type: dropdown
+    id: tecnica
+    attributes:
+      label: Excelencia técnica
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: autonomia
+    attributes:
+      label: Autonomía
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: responsabilidad
+    attributes:
+      label: Responsabilidad
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: liderazgo
+    attributes:
+      label: Liderazgo
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: comunicacion
+    attributes:
+      label: Comunicación y colaboración
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: empresa
+    attributes:
+      label: Conocimiento de la empresa
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidencias
+      description: Ejemplos concretos que justifiquen cada valoración, indicando la dimensión.
+  - type: textarea
+    id: acciones
+    attributes:
+      label: Acciones propuestas
+      description: Una o dos dimensiones en las que trabajar y cómo apoyarás a la persona.

@@ -1,0 +1,36 @@
+name: Radar de autoevaluación
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  radar:
+    if: contains(github.event.issue.body, '### Excelencia técnica')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar el comentario
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          GH_TOKEN: ${{ github.token }}
+        run: node .github/scripts/radar.mjs > comentario.md
+
+      - name: Publicar o actualizar el comentario
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          [ -s comentario.md ] || exit 0
+          id=$(gh api "repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER/comments" \
+            --jq '[.[] | select(.body | contains("<!-- radar-autoevaluacion -->")) | .id][0] // empty')
+          if [ -n "$id" ]; then
+            gh api --method PATCH "repos/$GITHUB_REPOSITORY/issues/comments/$id" -F body=@comentario.md
+          else
+            gh issue comment "$ISSUE_NUMBER" --body-file comentario.md
+          fi

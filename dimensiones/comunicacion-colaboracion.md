@@ -21,7 +21,7 @@ Es la capacidad para comunicarse con claridad y trabajar eficazmente con otras p
 - Adapta su comunicación a la persona y al contexto.
 - Facilita la colaboración con otros miembros del equipo.
 - Comparte conocimiento de forma activa.
-- Expresa desacuerdos y puntos de vista diferentes de forma constructiva.
+- Expresa desacuerdos y puntos de vista diferentes de forma constructiva, y pide críticas sobre sus propias propuestas.
 
 ## Nivel 4
 

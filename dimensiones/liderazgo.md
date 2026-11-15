@@ -18,7 +18,7 @@ Es la capacidad para influir positivamente en otras personas y ayudar a mejorar 
 
 ## Nivel 3
 
-- Mentorea activamente a compañeros.
+- Mentorea activamente a compañeros y les explica el porqué de sus decisiones.
 - Ayuda a otras personas a mejorar su forma de trabajar.
 - Influye en decisiones dentro de su equipo.
 - Genera confianza y es una persona de referencia para otras.
@@ -27,14 +27,14 @@ Es la capacidad para influir positivamente en otras personas y ayudar a mejorar 
 
 - Lidera iniciativas o decisiones que afectan al equipo.
 - Ayuda a desarrollar a otros profesionales.
-- Facilita que otras personas asuman más responsabilidad.
+- Facilita que otras personas asuman más responsabilidad, proponiéndolas para tareas visibles.
 - Consigue que el equipo adopte y mantenga mejores formas de trabajar.
 
 ## Nivel 5
 
 - Desarrolla líderes y referentes técnicos.
 - Influye en varios equipos o áreas.
-- Crea las condiciones para que otras personas puedan crecer.
+- Crea las condiciones para que otras personas puedan crecer y las patrocina: da visibilidad a su trabajo y las propone para nuevas oportunidades.
 - Lidera cambios importantes en la forma de trabajar.
 
 ## Nivel 6

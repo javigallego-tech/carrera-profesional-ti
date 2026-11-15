@@ -128,6 +128,8 @@ flowchart TD
 4. **Conversación.** Se habla de qué evidencias ve cada parte y por qué llegan a valoraciones distintas.
 5. **Plan de acción.** Se acuerdan acciones concretas para una o dos dimensiones, sin intentar mejorarlo todo a la vez.
 
+Para decidir en qué trabajar puede ayudar consultar las [señales de alerta por etapa](senales-de-alerta.md), comportamientos que frenan el desarrollo en cada momento. Se usan como preguntas para la conversación, nunca para puntuar.
+
 El siguiente ejemplo, con datos ficticios, compara a una persona con el perfil mínimo de Senior 1:
 
 ```mermaid

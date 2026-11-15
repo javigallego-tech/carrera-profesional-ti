@@ -1,0 +1,86 @@
+name: Autoevaluación
+description: Valora tu nivel en las seis dimensiones antes de la conversación de carrera.
+title: "Autoevaluación - "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Valora cada dimensión de 1 a 6 leyendo los niveles de la carpeta `dimensiones/` y pensando en ejemplos reales de tu trabajo.
+        Al enviar el formulario se publicará un comentario con tu radar frente al perfil mínimo del nivel de referencia.
+        La valoración no determina ningún cambio de nivel: es el punto de partida de la conversación.
+  - type: input
+    id: periodo
+    attributes:
+      label: Periodo
+      description: Por ejemplo, 2026-S2.
+    validations:
+      required: true
+  - type: dropdown
+    id: nivel
+    attributes:
+      label: Nivel de referencia
+      description: El nivel al que aspiras o, si no lo tienes claro, tu nivel actual.
+      options:
+        - I – Junior 1
+        - H – Junior 2
+        - G – Mid 1
+        - F – Mid 2
+        - E – Senior 1
+        - D – Senior 2
+        - C – Tech Lead / Manager
+        - B – Principal / Director
+        - A – Jefe/a de Departamento
+    validations:
+      required: true
+  - type: dropdown
+    id: tecnica
+    attributes:
+      label: Excelencia técnica
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: autonomia
+    attributes:
+      label: Autonomía
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: responsabilidad
+    attributes:
+      label: Responsabilidad
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: liderazgo
+    attributes:
+      label: Liderazgo
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: comunicacion
+    attributes:
+      label: Comunicación y colaboración
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: dropdown
+    id: empresa
+    attributes:
+      label: Conocimiento de la empresa
+      options: ["1", "2", "3", "4", "5", "6"]
+    validations:
+      required: true
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidencias
+      description: Ejemplos concretos de tu trabajo que justifiquen cada valoración, indicando la dimensión.
+  - type: textarea
+    id: plan
+    attributes:
+      label: En qué quieres trabajar
+      description: Una o dos dimensiones y las acciones que propones.
