@@ -6,7 +6,7 @@ Su objetivo principal es facilitar **conversaciones significativas** entre cada 
 
 ```mermaid
 ---
-title: "Ejemplo de desarrollo profesional (datos ficticios)"
+title: "Ejemplo de desarrollo profesional"
 config:
   themeCSS: ".radarCurve-0 { stroke-dasharray: 8 5; }"
   themeVariables:
